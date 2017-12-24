@@ -4,7 +4,7 @@ import java.util.Date;
 
 public interface IDateUtilities {
 
-	Float calculateNumHoursBetweenDates(Date dateStart, Date datEnd);
+	Long calculateNumMinutesBetweenDates (Date dateStart, Date datEnd);
 	
 	int getDayOfWeek();
 	
